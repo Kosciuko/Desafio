@@ -1,0 +1,12 @@
+{
+  "name": "4_class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "contenedor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
