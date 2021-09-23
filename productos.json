@@ -1,1 +1,20 @@
-productosString
+[
+  {
+    "title": "Plasticola",
+    "price": 76.5,
+    "thumbnail": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/151/873/products/20200422_1715001-cca9db13693614094e15875865405912-640-0.jpg",
+    "id": 1
+  },
+  {
+    "title": "Compás",
+    "price": 432.2,
+    "thumbnail": "https://thumbs.dreamstime.com/b/comp%C3%A1s-de-dibujo-aislado-rojo-132996590.jpg",
+    "id": 2
+  },
+  {
+    "title": "Tijera",
+    "price": 127.99,
+    "thumbnail": "https://unipack.com.ar/wp-content/uploads/2018/02/037910_pr_pink.jpg",
+    "id": 3
+  }
+]

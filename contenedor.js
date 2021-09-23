@@ -57,14 +57,13 @@ class Contenedor {
       const listaDeProducto = JSON.parse(contenido);
       if (listaDeProducto === '') {
       } else { const elementoEncontrado = listaDeProducto.filter(elemento => elemento.id !== id);
-        console.log(elementoEncontrado)
-        const productosString = JSON.stringify(listaDeProducto, null, 2);
+        const productosString = JSON.stringify(elementoEncontrado, null, 2);
         await fs.promises.writeFile(`./${this.file}`, productosString);
       }
     }catch (error) {
       console.error('Error:', error);
     };
-  }  
+  }
 
   async deleteAll() {
     try {
